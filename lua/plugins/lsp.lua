@@ -16,6 +16,7 @@ local function setup()
 	lspconfig.tailwindcss.setup({
 		filetypes = { "typescriptreact", "javascriptreact", "vue", "svelte", "html" }
 	})
+	lspconfig.intelephense.setup({})
 	lspconfig.lua_ls.setup({})
 	lspconfig.hls.setup({})
 	lspconfig.clangd.setup({})
