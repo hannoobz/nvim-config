@@ -22,5 +22,5 @@ keymap.set('i', '<C-s>', '<cmd>w<CR><Esc>', { remap = true })
 keymap.set('v', '<C-/>', 'gc', { remap = true })
 keymap.set('i', '<C-BS>', '<Esc>ldbi', { remap = true })
 keymap.set('n', '<C-A>', '0ggvG$', { remap = true })
-keymap.set('i', '<C-A>', '0ggvG$', { remap = true })
+keymap.set('i', '<C-A>', '<Esc>0ggvG$', { remap = true })
 return {}
